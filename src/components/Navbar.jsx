@@ -6,7 +6,9 @@ const Navbar = () => {
     return (
         <nav className="bg-antique-white p-4 text-gray-800 flex items-center justify-between">
             <div className="flex items-center space-x-2">
-                <img src="/logo.png" alt="CINEHUB Logo" className="h-8 w-auto" /> {/* 로고 이미지 */}
+                <Link href="/">
+                    <img src="/logo.png" alt="CINEHUB Logo" className="h-8 w-auto" /> {/* 로고 이미지 */}
+                </Link>
                 <ul className="flex space-x-8 text-lg">
                     <li className="relative group">
                         <Link href="/site">
