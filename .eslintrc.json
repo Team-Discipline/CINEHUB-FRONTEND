@@ -1,9 +1,0 @@
-//{
-//  "extends": "naver",
-//  "rules": {
-//    // Rules
-//  }
-//}
-{
-  "parser": "babel-parser"
-}
